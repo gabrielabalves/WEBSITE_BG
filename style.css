@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding-top: 55px;
+}
+
+nav.bg-light {
+    top: 0!important;
+    background-color: rgba(255, 255, 255, 0.938)!important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+a.navbar-brand {
+    font-size: 28px;
+    padding: 4px 15px;
+    color: #ff4500!important;
+}
+
+ul.me-auto {
+    margin-left: inherit!important;
+}
+
+a.nav-link {
+    color: #000000!important;
+    font-size: 17px;
+}
+
+a.nav-link:hover {
+    color: #ff4500!important;
+}
+
+form .btn-outline-light {
+    color: #ff4500!important;
+    border-color: #ff4500!important;
+}
+
+form .btn-outline-light:hover {
+    color: #ffffff!important;
+    background-color: #ff4501b2!important;
+    border-color: #ff4501b2!important;
+}
+
+
+
+
+
+
+
+
+
+/*SECTION*/
+
+section,
+div.col-12 {
+    padding: 70px 45px;
+    text-align: justify;
+}
+
+
+div.pricing {
+    justify-content: center;
+}
+
+div.card {
+    margin: 15px 6px;
+    border-color: #b916f5;
+    padding: 0;
+    transition: all 0.6s;
+    display: block;
+    right: 0;
+}
+
+div.card:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 4;
+}
+
+hr.price {
+    border:2px solid #b916f5;
+    border-radius: 5px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.85rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.price-table-price {
+    padding: 25px;
+}
+
+.price-table-price, span {
+    color: #b916f5;
+    line-height: .8;
+    font-size: 1rem;
+}
+
+.price-table-price, span.currency {
+    vertical-align: top;
+}
+
+.price-table-price, span.price {
+    font-family: Poppins-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.price-table-price, span.period {
+    font-size: .789rem;
+    text-transform: uppercase;
+}
+
+ul.list-group-flush {
+    margin-top: -13px;
+    margin-bottom: -2px;
+}
+
+.bi-check-circle-fill {
+    color: #000;
+}
+
+.bi-check-circle-fill, .bi-x-circle {
+    margin-right: 10px;
+    margin-left: -12px;
+}
+
+li.list-group-item {
+    color: #6c6c6c;  
+    line-height: 1.79rem;
+}
+
+.card-link {
+    color: #b916f5;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: #fff;
+}
+
+.learn {
+    border-color: #b916f5!important;
+    padding: 9px 33px;
+    text-transform: uppercase;
+}
+
+.learn:hover {
+    color: #fff;
+    background-color: #b906faab!important;
+    border-color: #b906faab!important;
+}
