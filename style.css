@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding-top: 55px;
+    padding-top: 60px;
 }
 
 nav.bg-light {
@@ -31,6 +31,7 @@ a.nav-link:hover {
 form .btn-outline-light {
     color: #ff4500!important;
     border-color: #ff4500!important;
+    font-size: 17px;
 }
 
 form .btn-outline-light:hover {
@@ -55,6 +56,9 @@ div.col-12 {
     text-align: justify;
 }
 
+h2 {
+    text-align: center;
+}
 
 div.pricing {
     justify-content: center;
@@ -65,8 +69,6 @@ div.card {
     border-color: #b916f5;
     padding: 0;
     transition: all 0.6s;
-    display: block;
-    right: 0;
 }
 
 div.card:hover {
@@ -75,10 +77,10 @@ div.card:hover {
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    z-index: 4;
+    z-index: 2;
 }
 
-hr.price {
+.hr {
     border:2px solid #b916f5;
     border-radius: 5px;
 }
@@ -88,14 +90,14 @@ hr.price {
 }
 
 .card-title {
-    font-size: 1.85rem;
+    font-size: 1.50rem;
     font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: -3px!important;
+    margin-top: -5px;;
 }
 
 .price-table-price {
-    padding: 25px;
+    padding: 5px;
 }
 
 .price-table-price, span {
@@ -104,24 +106,25 @@ hr.price {
     font-size: 1rem;
 }
 
-.price-table-price, span.currency {
+.price-table-price, .currency {
     vertical-align: top;
 }
 
-.price-table-price, span.price {
+.price-table-price, .price {
     font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 65px;
 }
 
-.price-table-price, span.period {
+.price-table-price, .period {
     font-size: .789rem;
     text-transform: uppercase;
 }
 
 ul.list-group-flush {
-    margin-top: -13px;
-    margin-bottom: -2px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    font-size: 15px;
 }
 
 .bi-check-circle-fill {
@@ -135,7 +138,19 @@ ul.list-group-flush {
 
 li.list-group-item {
     color: #6c6c6c;  
-    line-height: 1.79rem;
+    line-height: 18px;
+}
+
+.btn-choose {
+    border-color: #b916f5!important;
+    padding: 9px 33px;
+    text-transform: uppercase;
+}
+
+.btn-choose:hover {
+    color: #ffffff!important;
+    background-color: #b906faab!important;
+    border-color: #b906faab!important;
 }
 
 .card-link {
@@ -147,14 +162,10 @@ li.list-group-item {
     color: #fff;
 }
 
-.learn {
-    border-color: #b916f5!important;
-    padding: 9px 33px;
-    text-transform: uppercase;
-}
 
-.learn:hover {
-    color: #fff;
-    background-color: #b906faab!important;
-    border-color: #b906faab!important;
-}
+
+
+
+
+/*FOOTER*/
+
